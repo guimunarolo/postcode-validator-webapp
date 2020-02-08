@@ -2,7 +2,7 @@ import pytest
 import status
 from apps.postcodes.forms import PostcodeValidationForm
 from django.test import Client
-from django.urls import reverse
+from django.urls import reverse_lazy
 
 
 @pytest.fixture
@@ -12,7 +12,7 @@ def client():
 
 @pytest.fixture
 def postcode_validation_endpoint():
-    return reverse("postcode_validation")
+    return reverse_lazy("postcode_validation")
 
 
 def test_postcode_validation_view_renderization(client, postcode_validation_endpoint):
