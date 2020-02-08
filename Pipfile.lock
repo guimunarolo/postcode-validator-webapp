@@ -41,11 +41,11 @@
         },
         "postcode-validator-uk": {
             "hashes": [
-                "sha256:12f9ad4ea014df5ee2d0cbc265b544a2f92f4abea436fd68ff2c31df4053df77",
-                "sha256:f584e9510cc766d681d56fe4b6ece19186cfe40b0ef6aa1715cf333b5e17cbe1"
+                "sha256:4aa7db3cad4e7043a2808d75d14999f55349bb9565d70c4255ab432624de511e",
+                "sha256:e6f7f39ab05d80388505cee54a00945546cc4db69cdfce9895c12ea51babedb0"
             ],
             "index": "pypi",
-            "version": "==0.0.2"
+            "version": "==0.0.4"
         },
         "prettyconf": {
             "hashes": [
