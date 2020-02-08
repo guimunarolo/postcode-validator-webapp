@@ -7,6 +7,10 @@ jobs:
         docker:
             - image: circleci/python:3.8.1-buster
 
+              environment:
+                DEBUG: True
+                SECRET_KEY: SUPER-SEKRET
+
         working_directory: ~/repo
         steps:
             - checkout
