@@ -11,6 +11,7 @@ A simple webapp to implement [postcode-validator-uk](https://github.com/guimunar
 ```bash
 $ git clone git@github.com:guimunarolo/postcode-validator-webapp.git
 $ cd postcode-validator-webapp
+$ cp local.env .env
 $ pipenv shell
 $ pipenv install
 $ make run
