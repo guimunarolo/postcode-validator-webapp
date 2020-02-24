@@ -17,7 +17,7 @@ $ pipenv install
 $ make run
 ```
 
-Than I should be abble to access it at http://localhost:8000
+Then you should be able to access it at http://localhost:8000
 
 
 ## Running tests
